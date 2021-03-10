@@ -1,0 +1,21 @@
+---
+- hosts: "{{ hostname }}"
+  gather_facts: no
+  serial: 1
+  become: yes
+  roles:
+     - Networks
+     - role: PaloAltoNetworks.paloaltonetworks
+
+
+
+
+
+
+
+
+
+
+
+
+
